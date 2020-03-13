@@ -54,12 +54,12 @@ class NewAction extends \Magento\Backend\App\Action
         if (!empty($FormData)) {
             $model = $this->_objectManager->create('Beecom\Region\Model\Region');
             $model->setData($FormData);
-            $this->coreRegistry->register('phpcuong_region', $model);
+            $this->coreRegistry->register('beecom_region', $model);
         }
 
         $countryHelper = $this->_objectManager->get('Magento\Directory\Model\Config\Source\Country');
 
-        $this->coreRegistry->register('phpcuong_region_country_list', $countryHelper->toOptionArray());
+        $this->coreRegistry->register('beecom_region_country_list', $countryHelper->toOptionArray());
 
         return $resultPageFactory;
     }

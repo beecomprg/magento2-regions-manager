@@ -17,13 +17,13 @@ class RegionActions extends \Magento\Ui\Component\Listing\Columns\Column
      *
      * @var string
      */
-    const URL_PATH_EDIT = 'phpcuong/region/edit';
+    const URL_PATH_EDIT = 'beecom/region/edit';
     /**
      * Url path  to delete
      *
      * @var string
      */
-    const URL_PATH_DELETE = 'phpcuong/region/delete';
+    const URL_PATH_DELETE = 'beecom/region/delete';
     /**
      * URL builder
      *

@@ -42,7 +42,7 @@ class Edit extends Container
      */
     protected function _construct()
     {
-        $this->_objectId = 'phpcuong_region_id';
+        $this->_objectId = 'beecom_region_id';
         $this->_blockGroup = 'Beecom_Region';
         $this->_controller = 'adminhtml_region';
         parent::_construct();
@@ -66,7 +66,7 @@ class Edit extends Container
                 -100
             );
 
-            $region = $this->_coreRegistry->registry('phpcuong_region');
+            $region = $this->_coreRegistry->registry('beecom_region');
             if(!empty($region)) {
                 if ($region->getRegionId()) {
                     $this->buttonList->add(

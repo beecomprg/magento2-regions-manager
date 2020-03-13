@@ -70,7 +70,7 @@ class Form extends Generic
             ]
         );
 
-        $country_list = $this->_coreRegistry->registry('phpcuong_region_country_list');
+        $country_list = $this->_coreRegistry->registry('beecom_region_country_list');
 
         $fieldset->addField(
             'country_id',
@@ -106,7 +106,7 @@ class Form extends Generic
             ]
         );
 
-        $formData = $this->_coreRegistry->registry('phpcuong_region');
+        $formData = $this->_coreRegistry->registry('beecom_region');
         if ($formData) {
             if ($formData->getRegionId()) {
                 $fieldset->addField(

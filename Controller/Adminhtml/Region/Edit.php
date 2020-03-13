@@ -91,11 +91,11 @@ class Edit extends \Magento\Backend\App\Action
             $model->setData($FormData);
         }
 
-        $this->_coreRegistry->register('phpcuong_region', $model);
+        $this->_coreRegistry->register('beecom_region', $model);
 
         $countryHelper = $this->_objectManager->get('Magento\Directory\Model\Config\Source\Country');
 
-        $this->_coreRegistry->register('phpcuong_region_country_list', $countryHelper->toOptionArray());
+        $this->_coreRegistry->register('beecom_region_country_list', $countryHelper->toOptionArray());
 
         // Build edit form
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
