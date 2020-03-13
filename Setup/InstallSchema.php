@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 22:27:59
  */
 
-namespace PHPCuong\Region\Setup;
+namespace Beecom\Region\Setup;
 
 class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
 {

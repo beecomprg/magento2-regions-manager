@@ -8,12 +8,12 @@
  * @Last Modified time: 2016-12-15 23:30:16
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Backend\App\Action\Context;
 use Magento\Ui\Component\MassAction\Filter;
-use PHPCuong\Region\Model\ResourceModel\Region\CollectionFactory;
+use Beecom\Region\Model\ResourceModel\Region\CollectionFactory;
 
 class MassDelete extends \Magento\Backend\App\Action
 {
@@ -22,7 +22,7 @@ class MassDelete extends \Magento\Backend\App\Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'PHPCuong_Region::region_delete';
+    const ADMIN_RESOURCE = 'Beecom_Region::region_delete';
     /**
      * @var Filter
      */

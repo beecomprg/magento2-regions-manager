@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 22:10:30
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml;
+namespace Beecom\Region\Controller\Adminhtml;
 
 abstract class Region extends \Magento\Backend\App\Action
 {
@@ -21,7 +21,7 @@ abstract class Region extends \Magento\Backend\App\Action
     /**
      * Collection Factory
      *
-     * @var PHPCuong\Region\Model\ResourceModel\Region\CollectionFactory
+     * @var Beecom\Region\Model\ResourceModel\Region\CollectionFactory
      */
     protected $_collectionFactory;
 

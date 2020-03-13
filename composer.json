@@ -25,7 +25,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "PHPCuong\\Region\\": ""
+            "Beecom\\Region\\": ""
         }
     }
 }

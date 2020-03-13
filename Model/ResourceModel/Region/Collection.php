@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 17:58:16
  */
 
-namespace PHPCuong\Region\Model\ResourceModel\Region;
+namespace Beecom\Region\Model\ResourceModel\Region;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
@@ -18,6 +18,6 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
      */
     protected function _construct()
     {
-        $this->_init('PHPCuong\Region\Model\Region', 'PHPCuong\Region\Model\ResourceModel\Region');
+        $this->_init('Beecom\Region\Model\Region', 'Beecom\Region\Model\ResourceModel\Region');
     }
 }

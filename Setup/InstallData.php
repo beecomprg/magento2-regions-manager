@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 18:02:07
  */
 
-namespace PHPCuong\Region\Setup;
+namespace Beecom\Region\Setup;
 
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;

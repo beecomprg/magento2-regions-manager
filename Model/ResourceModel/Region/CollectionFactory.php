@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 04:52:51
  */
 
-namespace PHPCuong\Region\Model\ResourceModel\Region;
+namespace Beecom\Region\Model\ResourceModel\Region;
 
 class CollectionFactory {
     /**
@@ -31,7 +31,7 @@ class CollectionFactory {
      * @param \Magento\Framework\ObjectManagerInterface $objectManager
      * @param string $instanceName
      */
-    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\PHPCuong\\Region\\Model\\ResourceModel\\Region\\Collection')
+    public function __construct(\Magento\Framework\ObjectManagerInterface $objectManager, $instanceName = '\\Beecom\\Region\\Model\\ResourceModel\\Region\\Collection')
     {
         $this->_objectManager = $objectManager;
         $this->_instanceName = $instanceName;
@@ -41,7 +41,7 @@ class CollectionFactory {
      * Create class instance with specified parameters
      *
      * @param array $data
-     * @return \PHPCuong\Region\Model\ResourceModel\Region\Collection
+     * @return \Beecom\Region\Model\ResourceModel\Region\Collection
      */
     public function create(array $data = array())
     {

@@ -3,10 +3,10 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="PHPCuong_Region::region" title="Regions Manager">
-                    <resource id="PHPCuong_Region::region_create" title="Create"/>
-                    <resource id="PHPCuong_Region::region_edit" title="Edit" />
-                    <resource id="PHPCuong_Region::region_delete" title="Delete"/>
+                <resource id="Beecom_Region::region" title="Regions Manager">
+                    <resource id="Beecom_Region::region_create" title="Create"/>
+                    <resource id="Beecom_Region::region_edit" title="Edit" />
+                    <resource id="Beecom_Region::region_delete" title="Delete"/>
                 </resource>
             </resource>
         </resources>

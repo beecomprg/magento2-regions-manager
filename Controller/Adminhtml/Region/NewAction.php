@@ -8,7 +8,7 @@
  * @Last Modified time: 2017-11-11 23:02:48
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
 class NewAction extends \Magento\Backend\App\Action
 {
@@ -18,7 +18,7 @@ class NewAction extends \Magento\Backend\App\Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'PHPCuong_Region::region_create';
+    const ADMIN_RESOURCE = 'Beecom_Region::region_create';
 
     /**
      * @var \Magento\Backend\Model\View\Result\ForwardFactory
@@ -52,7 +52,7 @@ class NewAction extends \Magento\Backend\App\Action
 
         $FormData = $this->_objectManager->get('Magento\Backend\Model\Session')->getFormData(true);
         if (!empty($FormData)) {
-            $model = $this->_objectManager->create('PHPCuong\Region\Model\Region');
+            $model = $this->_objectManager->create('Beecom\Region\Model\Region');
             $model->setData($FormData);
             $this->coreRegistry->register('phpcuong_region', $model);
         }

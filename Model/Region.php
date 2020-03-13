@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 19:10:27
  */
 
-namespace PHPCuong\Region\Model;
+namespace Beecom\Region\Model;
 
 class Region extends \Magento\Framework\Model\AbstractModel
 {
@@ -25,6 +25,6 @@ class Region extends \Magento\Framework\Model\AbstractModel
      */
     protected function _construct()
     {
-        $this->_init('PHPCuong\Region\Model\ResourceModel\Region');
+        $this->_init('Beecom\Region\Model\ResourceModel\Region');
     }
 }

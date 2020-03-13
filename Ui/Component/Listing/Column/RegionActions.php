@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 22:16:00
  */
 
-namespace PHPCuong\Region\Ui\Component\Listing\Column;
+namespace Beecom\Region\Ui\Component\Listing\Column;
 
 class RegionActions extends \Magento\Ui\Component\Listing\Columns\Column
 {

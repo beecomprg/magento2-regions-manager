@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 17:43:20
  */
 
-namespace PHPCuong\Region\Model\ResourceModel;
+namespace Beecom\Region\Model\ResourceModel;
 
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Model\AbstractModel;

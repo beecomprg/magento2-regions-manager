@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 00:50:31
  */
 
-namespace PHPCuong\Region\Block\Adminhtml\Region;
+namespace Beecom\Region\Block\Adminhtml\Region;
 
 use Magento\Backend\Block\Widget\Form\Container;
 
@@ -43,11 +43,11 @@ class Edit extends Container
     protected function _construct()
     {
         $this->_objectId = 'phpcuong_region_id';
-        $this->_blockGroup = 'PHPCuong_Region';
+        $this->_blockGroup = 'Beecom_Region';
         $this->_controller = 'adminhtml_region';
         parent::_construct();
 
-        if ($this->_isAllowedAction('PHPCuong_Region::region_edit')) {
+        if ($this->_isAllowedAction('Beecom_Region::region_edit')) {
             $this->buttonList->update('save', 'label', __('Save Region'));
             $this->buttonList->add(
                 'saveandcontinue',

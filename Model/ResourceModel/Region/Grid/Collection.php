@@ -8,9 +8,9 @@
  * @Last Modified time: 2017-11-22 03:03:03
  */
 
-namespace PHPCuong\Region\Model\ResourceModel\Region\Grid;
+namespace Beecom\Region\Model\ResourceModel\Region\Grid;
 
-class Collection extends \PHPCuong\Region\Model\ResourceModel\Region\Collection implements \Magento\Framework\Api\Search\SearchResultInterface
+class Collection extends \Beecom\Region\Model\ResourceModel\Region\Collection implements \Magento\Framework\Api\Search\SearchResultInterface
 {
     /**
      * Aggregations

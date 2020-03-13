@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 14:29:04
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Exception\LocalizedException;
@@ -51,8 +51,8 @@ class Save extends \Magento\Backend\App\Action
 
             $id = $this->getRequest()->getParam('region_id');
 
-            /** @var \PHPCuong\Region\Model\Region $model */
-            $model = $this->_objectManager->create('PHPCuong\Region\Model\Region')->load($id);
+            /** @var \Beecom\Region\Model\Region $model */
+            $model = $this->_objectManager->create('Beecom\Region\Model\Region')->load($id);
             if (!$model->getRegionId() && $id) {
                 $this->messageManager->addError(__('This region no longer exists.'));
                 return $resultRedirect->setPath('*/*/');

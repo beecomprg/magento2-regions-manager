@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 15:45:47
  */
 
-namespace PHPCuong\Region\Block\Adminhtml\Region\Edit;
+namespace Beecom\Region\Block\Adminhtml\Region\Edit;
 
 use \Magento\Backend\Block\Widget\Form\Generic;
 

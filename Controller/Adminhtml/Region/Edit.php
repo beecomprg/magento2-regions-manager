@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 15:12:07
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
 use Magento\Backend\App\Action;
 
@@ -19,7 +19,7 @@ class Edit extends \Magento\Backend\App\Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'PHPCuong_Region::region_edit';
+    const ADMIN_RESOURCE = 'Beecom_Region::region_edit';
 
     /**
      * Core registry
@@ -72,7 +72,7 @@ class Edit extends \Magento\Backend\App\Action
     {
         // Get ID and create model
         $id = (int) $this->getRequest()->getParam('region_id');
-        $model = $this->_objectManager->create('PHPCuong\Region\Model\Region');
+        $model = $this->_objectManager->create('Beecom\Region\Model\Region');
         $model->setData([]);
         // Initial checking
         if ($id && $id > 0) {

@@ -8,9 +8,9 @@
  * @Last Modified time: 2016-12-13 16:00:34
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
-class Index extends \PHPCuong\Region\Controller\Adminhtml\Region
+class Index extends \Beecom\Region\Controller\Adminhtml\Region
 {
     /**
      * @return \Magento\Framework\View\Result\PageFactory

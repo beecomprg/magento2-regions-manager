@@ -13,7 +13,7 @@ This module provides flexibility of managing the regions for each country in you
 Install Regions Manager for Magento2
  * Download the extension
  * Unzip the file
- * Create a folder {Magento root}/app/code/PHPCuong/Region
+ * Create a folder {Magento root}/app/code/Beecom/Region
  * Copy the content from the unzip folder
 
 
@@ -24,7 +24,7 @@ composer require php-cuong/magento2-regions-manager
 ```
 
 #### 2 - Enable Regions Manager
- * php bin/magento module:enable PHPCuong_Region
+ * php bin/magento module:enable Beecom_Region
  * php bin/magento setup:upgrade
  * php bin/magento cache:flush
  * php bin/magento setup:static-content:deploy

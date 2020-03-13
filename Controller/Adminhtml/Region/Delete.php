@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 22:22:47
  */
 
-namespace PHPCuong\Region\Controller\Adminhtml\Region;
+namespace Beecom\Region\Controller\Adminhtml\Region;
 
 class Delete extends \Magento\Backend\App\Action
 {
@@ -17,7 +17,7 @@ class Delete extends \Magento\Backend\App\Action
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'PHPCuong_Region::region_delete';
+    const ADMIN_RESOURCE = 'Beecom_Region::region_delete';
     /**
      *
      * @return \Magento\Framework\View\Result\PageFactory
@@ -32,7 +32,7 @@ class Delete extends \Magento\Backend\App\Action
             $region_name = '';
             try {
                 // init model and delete
-                $model = $this->_objectManager->create('PHPCuong\Region\Model\Region');
+                $model = $this->_objectManager->create('Beecom\Region\Model\Region');
                 $model->load($region_id);
                 $region_name = $model->getDefaultName();
                 $model->delete();

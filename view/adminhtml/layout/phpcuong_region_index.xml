@@ -16,14 +16,14 @@
             <uiComponent name="region_listing"/>
         </referenceContainer>
         <referenceContainer name="legal.copyright">
-            <block class="Magento\Backend\Block\Page\Copyright" name="region-copyright" template="PHPCuong_Region::footer/copyright.phtml"/>
+            <block class="Magento\Backend\Block\Page\Copyright" name="region-copyright" template="Beecom_Region::footer/copyright.phtml"/>
             <referenceBlock name="copyright" remove="true"/>
         </referenceContainer>
         <referenceContainer name="legal.system">
             <referenceBlock name="report" remove="true"/>
             <referenceBlock name="version" remove="true"/>
-            <block class="Magento\Framework\View\Element\Template" name="region-version" template="PHPCuong_Region::footer/version.phtml"/>
-            <block class="Magento\Framework\View\Element\Template" name="region-report" template="PHPCuong_Region::footer/report.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="region-version" template="Beecom_Region::footer/version.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="region-report" template="Beecom_Region::footer/report.phtml"/>
         </referenceContainer>
     </body>
 </page>

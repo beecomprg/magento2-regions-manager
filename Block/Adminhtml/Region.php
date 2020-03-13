@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 00:12:38
  */
 
-namespace PHPCuong\Region\Block\Adminhtml;
+namespace Beecom\Region\Block\Adminhtml;
 
 /**
  * Adminhtml cms blocks content block
@@ -20,7 +20,7 @@ class Region extends \Magento\Backend\Block\Widget\Grid\Container
      */
     protected function _construct()
     {
-        $this->_blockGroup = 'PHPCuong_Region';
+        $this->_blockGroup = 'Beecom_Region';
         $this->_controller = 'adminhtml_region';
         $this->_headerText = __('Regions Manager');
         $this->_addButtonLabel = __('Add New Region');
