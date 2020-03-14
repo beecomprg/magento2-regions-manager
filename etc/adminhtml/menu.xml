@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
-        <add id="Beecom_Region::country" title="Manage Countries in Addresses" module="Beecom_Region" sortOrder="65" parent="Magento_Customer::customer" action="beecom_region/country" resource="Beecom_Region::country"/>
+        <add id="Beecom_Region::country" title="Manage Countries in Addresses" module="Beecom_Region" sortOrder="65" parent="Magento_Customer::customer" action="beecom_region/region/country" resource="Beecom_Region::country"/>
         <add id="Beecom_Region::region" title="Manage Regions in Addresses" module="Beecom_Region" sortOrder="65" parent="Magento_Customer::customer" action="beecom_region/region" resource="Beecom_Region::region"/>
     </menu>
 </config>
