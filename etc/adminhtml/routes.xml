@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
     <router id="admin">
-        <route id="beecom" frontName="beecom">
+        <route id="beecom_region" frontName="beecom_region">
+            <module name="Beecom_Region" before="Magento_Backend" />
+        </route>
+        <route id="beecom_country" frontName="beecom_country">
             <module name="Beecom_Region" before="Magento_Backend" />
         </route>
     </router>
