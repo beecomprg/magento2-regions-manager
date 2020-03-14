@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 14:29:04
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\Exception\LocalizedException;
@@ -51,8 +51,8 @@ class Save extends \Magento\Backend\App\Action
 
             $id = $this->getRequest()->getParam('region_id');
 
-            /** @var \Beecom\Country\Model\Country $model */
-            $model = $this->_objectManager->create('Beecom\Country\Model\Country')->load($id);
+            /** @var \Beecom\Region\Model\Country $model */
+            $model = $this->_objectManager->create('Beecom\Region\Model\Country')->load($id);
             if (!$model->getCountryId() && $id) {
                 $this->messageManager->addError(__('This region no longer exists.'));
                 return $resultRedirect->setPath('*/*/');

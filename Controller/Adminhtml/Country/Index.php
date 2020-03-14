@@ -8,9 +8,9 @@
  * @Last Modified time: 2016-12-13 16:00:34
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
-class Index extends \Beecom\Country\Controller\Adminhtml\Country
+class Index extends \Beecom\Region\Controller\Adminhtml\Country
 {
     /**
      * @return \Magento\Framework\View\Result\PageFactory

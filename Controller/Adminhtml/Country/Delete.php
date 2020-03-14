@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-12 22:22:47
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
 class Delete extends \Magento\Backend\App\Action
 {
@@ -32,7 +32,7 @@ class Delete extends \Magento\Backend\App\Action
             $region_name = '';
             try {
                 // init model and delete
-                $model = $this->_objectManager->create('Beecom\Country\Model\Country');
+                $model = $this->_objectManager->create('Beecom\Region\Model\Country');
                 $model->load($region_id);
                 $region_name = $model->getDefaultName();
                 $model->delete();

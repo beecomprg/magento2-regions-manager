@@ -8,7 +8,7 @@
  * @Last Modified time: 2016-12-13 15:12:07
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
 use Magento\Backend\App\Action;
 
@@ -72,7 +72,7 @@ class Edit extends \Magento\Backend\App\Action
     {
         // Get ID and create model
         $id = (int) $this->getRequest()->getParam('region_id');
-        $model = $this->_objectManager->create('Beecom\Country\Model\Country');
+        $model = $this->_objectManager->create('Beecom\Region\Model\Country');
         $model->setData([]);
         // Initial checking
         if ($id && $id > 0) {

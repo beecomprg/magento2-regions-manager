@@ -8,7 +8,7 @@
  * @Last Modified time: 2017-11-11 23:02:48
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
 class NewAction extends \Magento\Backend\App\Action
 {
@@ -52,7 +52,7 @@ class NewAction extends \Magento\Backend\App\Action
 
         $FormData = $this->_objectManager->get('Magento\Backend\Model\Session')->getFormData(true);
         if (!empty($FormData)) {
-            $model = $this->_objectManager->create('Beecom\Country\Model\Country');
+            $model = $this->_objectManager->create('Beecom\Region\Model\Country');
             $model->setData($FormData);
             $this->coreRegistry->register('beecom_region', $model);
         }

@@ -8,12 +8,12 @@
  * @Last Modified time: 2016-12-15 23:30:16
  */
 
-namespace Beecom\Country\Controller\Adminhtml\Country;
+namespace Beecom\Region\Controller\Adminhtml\Country;
 
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Backend\App\Action\Context;
 use Magento\Ui\Component\MassAction\Filter;
-use Beecom\Country\Model\ResourceModel\Country\CollectionFactory;
+use Beecom\Region\Model\ResourceModel\Country\CollectionFactory;
 
 class MassDelete extends \Magento\Backend\App\Action
 {
