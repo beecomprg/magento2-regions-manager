@@ -38,7 +38,5 @@ Log into your Magento admin, goto Customers -> Manage Regions in Addresses
 https://github.com/php-cuong/magento2-city-dropdown
 
 ### Donations
-Please donate if you enjoy my extension.
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RUYCWQ3Q9YGH2)
 
